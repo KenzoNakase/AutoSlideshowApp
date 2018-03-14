@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="60dp"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:text="進む"
+        android:id="@+id/forwardButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="戻る"
+        android:id="@+id/backButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:text="再生/停止"
+        android:id="@+id/playPauseButton"/>
+
+</RelativeLayout>
